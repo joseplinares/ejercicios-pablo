@@ -62,6 +62,10 @@ function lanzarSinonimos() {
     openInNewTab("./sinonimos/index.html")
 }
 
+function lanzarMeses() {
+    openInNewTab("./meses/index.html")
+}
+
 function openInNewTab(url) {
     window.open(url, '_blank').focus();
 }

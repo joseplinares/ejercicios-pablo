@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drag and Drop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="hide" id="correct" src="img/minions-aplauso.gif" />
+        <img class="hide" id="error" src="img/minion-error.webp" />
+
+        <h1 id="title"></h1>
+        <div class="drop-targets-header-container">
+            <h2 style="background-color: rgb(167, 237, 167);">Centenas</h2>
+            <h2 style="background-color: rgb(238, 155, 155);">Decenas</h2>
+            <h2 style="background-color: rgb(0, 119, 255);">Unidades</h2>
+        </div>
+        <div class="drop-targets">
+            <div class="box" id="centena"></div>
+            <div class="box" id="decena"></div>
+            <div class="box" id="unidad"></div>
+        </div>
+
+        <div class="item-container">
+            <div class="item" id="item_0" draggable="true">
+                <h1>0</h1>
+            </div>
+            <div class="item" id="item_1" draggable="true">
+                <h1>1</h1>
+            </div>
+            <div class="item" id="item_2" draggable="true">
+                <h1>2</h1>
+            </div>
+            <div class="item" id="item_3" draggable="true">
+                <h1>3</h1>
+            </div>
+            <div class="item" id="item_4" draggable="true">
+                <h1>4</h1>
+            </div>
+            <div class="item" id="item_5" draggable="true">
+                <h1>5</h1>
+            </div>
+            <div class="item" id="item_6" draggable="true">
+                <h1>6</h1>
+            </div>
+            <div class="item" id="item_7" draggable="true">
+                <h1>7</h1>
+            </div>
+            <div class="item" id="item_8" draggable="true">
+                <h1>8</h1>
+            </div>
+            <div class="item" id="item_9" draggable="true">
+                <h1>9</h1>
+            </div>
+        </div>
+        <div id="segunda_parte" class="hide">
+            <div class="contenedor-resultados" id="suma">
+                <h2 id="resultado_1"> </h2> <input type="text" id="suma_centena">
+                <h2> +</h2> <input type="text" id="suma_decena">
+                <h2> +</h2> <input type="text" id="suma_unidad">
+            </div>
+            <div class="contenedor-resultados" id="descomposicion">
+                <h2 id="resultado_2"></h2> <input type="text" id="desc_centena">
+                <h2>Centenas,</h2> <input type="text" id="desc_decena">
+                <h2>Decenas y</h2> <input type="text" id="desc_unidad">
+                <h2>Unidades</h2>
+            </div>
+            <div class="contenedor-resultados" id="comprobar">
+                <button onclick="comprobar_resultados()">Comprobar</button>
+            </div>
+        </div>
+
+
+
+        <script src="js/app.js"></script>
+</body>
+
+</html>

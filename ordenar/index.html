@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drag and Drop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="hide" id="correct" src="img/minions-aplauso.gif" />
+        <img class="hide" id="error" src="img/minion-error.webp" />
+
+        <h1 id="title">Ordenar de mayor a menor</h1>
+        <div class="drop-targets">
+            <div class="box" id="valor_1"></div>
+            <span style="font-size: 50px">></span>
+            <div class="box" id="valor_2"></div>
+            <span style="font-size: 50px">></span>
+            <div class="box" id="valor_3"></div>
+            <span style="font-size: 50px">></span>
+            <div class="box" id="valor_4"></div>
+            <span style="font-size: 50px">></span>
+            <div class="box" id="valor_5"></div>
+        </div>
+
+        <div class="item-container">
+            <div class="item" id="item_0" draggable="true">
+                <h1>511</h1>
+            </div>
+            <div class="item" id="item_1" draggable="true">
+                <h1>245</h1>
+            </div>
+            <div class="item" id="item_2" draggable="true">
+                <h1>728</h1>
+            </div>
+            <div class="item" id="item_3" draggable="true">
+                <h1>256</h1>
+            </div>
+            <div class="item" id="item_4" draggable="true">
+                <h1>99</h1>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+</body>
+
+</html>

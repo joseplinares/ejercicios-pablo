@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url('../img/real__madrid_trasnparent.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion {
+    background-color: aliceblue;
+    padding: 50px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid green;
+    margin: 50px;
+}
+
+.solucion {
+    background-color: aliceblue;
+    padding: 100px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid green;
+}
+
+input {
+    background-color: #cfe3cf;
+    height: 50px;
+    font-size: larger;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="hide" id="correct" src="img/campeon.gif" />
+        <div class="descripcion">
+            <p>El Real Madrid tiene que marcar <span id="n_1">8</span> goles para eliminar al barcelona.</p>
+            <p>Ya le ha marcado <span id="n_2">5</span> ¿Cuantos goles le falta para eliminar al barcelona?</p>
+        </div>
+        <div class="solucion">
+            <input type="number" id="value_1" size="3" maxlength="3" style="width: 80px;">
+            <input type="text" id="operador" size="1" maxlength="1" style="width: 20px;">
+            <input type="number" id="value_2" size="3" maxlength="3" style="width: 80px;">
+            <span>=</span>
+            <input type="number" id="resultado" size="3" maxlength="3" style="width:80px;" onkeyup="
+                comprobar_resultado_falta()">
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -31,6 +31,15 @@ function lanzarOdenarMenorMayor() {
 
 }
 
+function lanzarCuantoFalta() {
+    console.log("Lanzar cuanto falta")
+    n1 = document.getElementById("cf1").value
+    n2 = document.getElementById("cf2").value
+
+    openInNewTab("./problemas/cuanto-falta.html?n1=" + n1 + "&n2=" + n2);
+
+}
+
 function lanzarSinonimos() {
     openInNewTab("./sinonimos/index.html")
 }

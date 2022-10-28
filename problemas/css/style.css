@@ -22,16 +22,16 @@ body {
 
 .descripcion {
     background-color: aliceblue;
-    padding: 50px;
+    padding: 20px;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid green;
-    margin: 50px;
+    margin: 20px;
 }
 
 .solucion {
     background-color: aliceblue;
-    padding: 100px;
+    padding: 20px;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid green;

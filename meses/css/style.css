@@ -22,7 +22,12 @@ body {
     border: 1px solid green;
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:hovers .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+.flip-card .flip-card-inner.is-flipped {
     transform: rotateY(180deg);
 }
 

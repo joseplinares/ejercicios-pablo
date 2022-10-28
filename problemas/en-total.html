@@ -13,16 +13,16 @@
     <div class="container">
         <img class="hide" id="correct" src="img/campeon.gif" />
         <div class="descripcion">
-            <p>El Real Madrid tiene que marcar <span id="n_1">8</span> goles para eliminar al barcelona.</p>
-            <p>Ya le ha marcado <span id="n_2">5</span> ¿Cuantos goles le falta para eliminar al barcelona?</p>
+            <p>El Real Madrid ha marcado <span id="n_1">8</span> goles en la primera parte</p>
+            <p>y <span id="n_2">5</span> en la segunda parte ¿Cuantos goles ha marcado en total?</p>
         </div>
         <div class="solucion">
             <input type="number" id="value_1" size="3" maxlength="3" style="width: 100px;">
             <input type="number" id="operador" size="1" maxlength="1" style="width: 50px;">
             <input type="number" id="value_2" size="3" maxlength="3" style="width: 100px;">
             <span>=</span>
-            <input type="number" id="resultado" size="3" maxlength="3" style="width:100px;" onkeyup="
-                comprobar_resultado_falta()">
+            <input type="number" id="resultado" size="3" maxlength="3" style="width:100px;"
+                onkeyup="comprobar_resultado_total()">
         </div>
     </div>
     <script src="js/app.js"></script>

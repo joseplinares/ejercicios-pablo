@@ -3,14 +3,6 @@ body {
     height: 100%;
 }
 
-body {
-    background-image: url('../img/real__madrid_trasnparent.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
 
 .container {
     width: 100%;
@@ -18,7 +10,26 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('../img/real__madrid_trasnparent.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
+
+.container_2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/supermercado.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
 
 .descripcion {
     background-color: aliceblue;

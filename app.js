@@ -40,6 +40,24 @@ function lanzarCuantoFalta() {
 
 }
 
+function lanzarEnTotal() {
+    console.log("Lanzar en total")
+    n1 = document.getElementById("et1").value
+    n2 = document.getElementById("et2").value
+
+    openInNewTab("./problemas/en-total.html?n1=" + n1 + "&n2=" + n2);
+
+}
+
+function lanzarADevolcer() {
+    console.log("Lanzar a devolver")
+    n1 = document.getElementById("ad1").value
+    n2 = document.getElementById("ad2").value
+
+    openInNewTab("./problemas/cuanto-devuelve.html?n1=" + n1 + "&n2=" + n2);
+
+}
+
 function lanzarSinonimos() {
     openInNewTab("./sinonimos/index.html")
 }

@@ -18,3 +18,26 @@ function comprobar_resultado_falta() {
         }, 3000);
     }
 }
+
+function comprobar_resultado_total() {
+    resultado = parseInt(p_n1) + parseInt(p_n2)
+    res_operacion = document.getElementById("resultado").value;
+    if (resultado == res_operacion) {
+        document.getElementById("correct").classList.remove("hide")
+        setTimeout(() => {
+            document.getElementById("correct").classList.add("hide");
+        }, 3000);
+    }
+
+}
+
+function comprobar_resultado_devolver() {
+    resultado = parseInt(p_n2) - parseInt(p_n1)
+    res_operacion = document.getElementById("resultado").value;
+    if (resultado == res_operacion) {
+        document.getElementById("correct").classList.remove("hide")
+        setTimeout(() => {
+            document.getElementById("correct").classList.add("hide");
+        }, 3000);
+    }
+}

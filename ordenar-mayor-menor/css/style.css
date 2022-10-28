@@ -41,10 +41,9 @@ h1 {
 }
 
 .drop-targets-header-container h2 {
-    width: 80px;
+    width: 150px;
     border: solid 3px #ccc;
     margin: 10px;
-    font-size: 0.8em;
 
     /* align items in the box */
     display: flex;
@@ -60,14 +59,14 @@ h1 {
     align-items: center;
     border: 1px solid red;
     width: 100%;
-    height: 200px;
+    height: 100px;
 
     margin: 20px 0;
 }
 
 .box {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
     border: solid 3px #ccc;
     margin: 10px;
 
@@ -85,22 +84,37 @@ h1 {
 }
 
 .item {
-    height: 60px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
     background-color: #F0DB4F;
 
 }
 
 .item h1 {
-    padding: 10%;
+    padding: 20%;
     text-align: center;
-    font-size: 0.8em;
 }
 
 .hide {
     display: none;
 }
 
-.guay {
-    background: rgb(167, 237, 167);
+input {
+    font-size: large;
+    width: 50px;
+    margin: 0 5px;
+}
+
+button {
+    font-size: large;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.contenedor-resultados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }

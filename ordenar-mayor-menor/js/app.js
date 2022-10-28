@@ -13,6 +13,8 @@ document.getElementById("h_item_3").innerHTML = p_n3
 document.getElementById("h_item_4").innerHTML = p_n4
 document.getElementById("h_item_5").innerHTML = p_n5
 
+
+
 // select the item element
 const items = document.querySelectorAll('.item');
 
@@ -95,7 +97,7 @@ function check_result() {
 
 
     if (valor_1 && valor_2 && valor_3 && valor_4 && valor_5) {
-        if ((parseInt(valor_1) < parseInt(valor_2)) && (parseInt(valor_2) < parseInt(valor_3)) && (parseInt(valor_3) < parseInt(valor_4)) && (parseInt(valor_4) < parseInt(valor_5)))
+        if ((parseInt(valor_1) > parseInt(valor_2)) && (parseInt(valor_2) > parseInt(valor_3)) && (parseInt(valor_3) && parseInt(valor_4)) && (parseInt(valor_4) > parseInt(valor_5)))
             show_aplausos()
     }
 

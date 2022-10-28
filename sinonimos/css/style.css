@@ -43,7 +43,7 @@ h1 {
 .drop-targets-header-container h2 {
     width: 80px;
     border: solid 3px #ccc;
-    margin: 10px;
+    margin: 5px;
     font-size: 0.8em;
 
     /* align items in the box */
@@ -69,7 +69,7 @@ h1 {
     height: 80px;
     width: 80px;
     border: solid 3px #ccc;
-    margin: 10px;
+    margin: 5px;
 
     /* align items in the box */
     display: flex;

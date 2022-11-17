@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.operacion {
+    display: flex;
+}
+
+.regla {
+    background-color: chartreuse;
+    height: 110px;
+    padding: 10px;
+    width: 900px;
+    display: flex;
+    margin: 20px;
+}
+
+.unidad {
+    border: 1px solid green;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicial {
+    background-color: gray;
+}
+
+.separador {
+    border: 1px solid blue;
+    background-color: red;
+    width: 5px;
+}
+
+.conteo {
+    margin: 20px;
+}
+
+.resultado {
+    background-image: url('./minions-aplauso.gif');
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.resultado-pablo {
+    display: flex;
+}
+
+
+span {
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    font-size: 5rem;
+    color: coral;
+}
+
+button {
+    font-size: large;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+input {
+    font-size: large;
+    width: 50px;
+    margin: 0 5px;
+}

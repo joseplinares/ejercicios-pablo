@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drag and Drop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="hide" id="correct" src="img/minions-aplauso.gif" />
+        <img class="hide" id="error" src="img/minion-error.webp" />
+
+        <h1 id="title">Antonimos</h1>
+        <div class="drop-targets-header-container">
+            <h2 style="background-color: rgb(167, 237, 167);">feliz</h2>
+            <h2 style="background-color: rgb(167, 237, 167);">alto</h2>
+            <h2 style="background-color: rgb(167, 237, 167);">subir</h2>
+            <h2 style="background-color: rgb(167, 237, 167);">grande</h2>
+            <h2 style="background-color: rgb(167, 237, 167);">empezar</h2>
+            <h2 style="background-color: rgb(167, 237, 167);">ensuciar</h2>
+        </div>
+        <div class="drop-targets">
+            <div class="box" id="box_1"></div>
+            <div class="box" id="box_2"></div>
+            <div class="box" id="box_3"></div>
+            <div class="box" id="box_4"></div>
+            <div class="box" id="box_5"></div>
+            <div class="box" id="box_6"></div>
+        </div>
+
+        <div class="item-container">
+            <div class="item" id="item_3" draggable="true">
+                <h1>bajar</h1>
+            </div>
+            <div class="item" id="item_6" draggable="true">
+                <h1>limpiar</h1>
+            </div>
+            <div class="item" id="item_2" draggable="true">
+                <h1>bajo</h1>
+            </div>
+            <div class="item" id="item_1" draggable="true">
+                <h1>triste</h1>
+            </div>
+            <div class="item" id="item_4" draggable="true">
+                <h1>pequeño</h1>
+            </div>
+            <div class="item" id="item_5" draggable="true">
+                <h1>terminar</h1>
+            </div>
+        </div>
+
+
+
+        <script src="js/app.js"></script>
+</body>
+
+</html>

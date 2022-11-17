@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Regla</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="operacion">
+            <h1 id="minuendo"></h1>
+            <h1>-</h1>
+            <h1 id="sustraendo"></h1>
+        </div>
+        <div class="regla">
+            <div class="unidad inicial"><span id="v0"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v1"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v2"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v3"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v4"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v5"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v6"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v7"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v8"></span></div>
+            <div class="separador"></div>
+            <div class="unidad"><span id="v9"></span></div>
+            <div class="separador"></div>
+        </div>
+        <button onclick="empezar_contar()">Empezar a contar</button>
+        <div class="conteo">
+            <img class="hide" id="dedo_1" src="un_dedo.JPG"></img>
+            <img class="hide" id="dedo_2" src="dos_dedos.JPG"></img>
+            <img class="hide" id="dedo_3" src="tres_dedos.JPG"></img>
+            <img class="hide" id="dedo_4" src="cuatro_dedos.JPG"></img>
+            <img class="hide" id="dedo_5" src="cinco_dedos.JPG"></img>
+            <img class="hide" id="dedo_6" src="un_dedo.JPG"></img>
+            <img class="hide" id="dedo_7" src="dos_dedos.JPG"></img>
+            <img class="hide" id="dedo_8" src="tres_dedos.JPG"></img>
+            <img class="hide" id="dedo_9" src="cuatro_dedos.JPG"></img>
+        </div>
+
+        <div class="resultado-pablo hide">
+            <h2>El resultado de la resta es el numero de dedos ¿Cuantos dedos hay?</h2>
+            <input type="number" id="resultado_pablo" size="3" maxlength="3">
+            <button onclick="comprobar()">Comprobar</button>
+        </div>
+
+        <div class="resultado">
+            <h1 id="resultado" class="hide"></h1>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

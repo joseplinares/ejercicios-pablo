@@ -62,9 +62,24 @@ function lanzarSinonimos() {
     openInNewTab("./sinonimos/index.html")
 }
 
+function lanzarAntonimos() {
+    openInNewTab("./antonimos/index.html")
+}
+
 function lanzarMeses() {
     openInNewTab("./meses/index.html")
 }
+
+
+function lanzarComunesPropios() {
+    openInNewTab("./propios-comunes/index.html")
+}
+
+function lanzarIndivualesColectivos() {
+    openInNewTab("./individual-colectivo/index.html")
+}
+
+
 
 function openInNewTab(url) {
     window.open(url, '_blank').focus();
